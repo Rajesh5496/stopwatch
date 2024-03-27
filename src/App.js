@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Stopwatch from './component/stopwatch';
+import Stopwatchclass from './component/stopwatchclass';
+
 function App() {
 
   return (
     <div>
-      <Stopwatch />
+      {/* <Stopwatch /> */}
+      <Stopwatchclass />
     </div>
   )
   // return (
